@@ -1,17 +1,17 @@
+package snakeGame;
 import javax.swing.JFrame;
 
-public class Main {
+public class PlaySnake {
 
 	public static void main(String[] args) {
 
 		//Creating the window with all its awesome snaky features
-		Window f1= new Window();
+		SnakeJFrame f1= new SnakeJFrame();
 		
 		//Setting up the window settings
 		f1.setTitle("Snake");
 		f1.setSize(300,300);
-		f1.setVisible(true);
-		f1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);             
+		f1.setVisible(true);           
 
 	}
 }

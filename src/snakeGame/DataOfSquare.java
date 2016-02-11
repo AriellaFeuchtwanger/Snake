@@ -1,5 +1,7 @@
+package snakeGame;
 import java.util.ArrayList;
 import java.awt.Color;
+
 
 public class DataOfSquare {
 
@@ -10,7 +12,7 @@ public class DataOfSquare {
 	SquarePanel square;
 	public DataOfSquare(int col){
 		
-		//Lets add the color to the arrayList
+		//Let's add the color to the arrayList
 		C.add(Color.darkGray);//0
 		C.add(Color.BLUE);    //1
 		C.add(Color.white);   //2
